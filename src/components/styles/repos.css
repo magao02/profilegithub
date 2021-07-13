@@ -1,0 +1,88 @@
+html, body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, #252525, #444);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.container-repos{
+    width: 400px;
+    height: 90vh;
+    background: #292929;
+    border-radius: 10px;
+    overflow: scroll;
+    margin-top: 15px;
+}
+.arrow-left{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+header{
+    display: flex;
+    background-color: #1F1F1F;
+    flex-direction: line;
+}
+
+.container-repos header h1{
+    margin-right: 0%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+.repos{
+    background-color: #292929;
+}
+
+.repo-unico{
+    width: 100%;
+    height: 100px;
+    background: rgba(0,0,0,.05);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-bottom: 1px solid #7070705A;
+}
+.repo-unico h2{
+    width: 100%;
+    text-align: left;
+    font-size: 31px;
+    font-weight: 700;
+    color: #FFF;
+    margin: 0;
+    margin-left: 15px;;
+    color: white;
+}
+.repo-unico p{
+    display: block;
+    color: white;
+}
+.detail{
+    height: 30px;
+
+    border-right: 10px solid #FFCE00;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    flex-direction: line;
+    align-items: left;
+}
+.footer p{
+    width: 100%;
+    text-align: left;
+    color: #FFF;
+    margin: 0;
+    margin-left: 15px;;
+    color: white;
+}
